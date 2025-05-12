@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ADAT")(type "KiCad")(uri "${KIPRJMOD}/libraries/ADAT.kicad_sym")(options "")(descr ""))
+  (lib (name "Photolink")(type "KiCad")(uri "${KIPRJMOD}/libraries/Photolink.kicad_sym")(options "")(descr ""))
+)
