@@ -4348,6 +4348,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Photolink:PLT133/T")
+		(at 185.42 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e842489-6b23-4a40-9c01-3ae2595f9818")
+		(property "Reference" "J5"
+			(at 185.42 81.2885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PLT133/T"
+			(at 185.42 82.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Photolink:PLx13xT"
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6db6788a-b681-4258-8e54-e466ad1eeeb9")
+		)
+		(pin "3"
+			(uuid "320824ed-b5e1-4376-a9e3-0cf5ad8ad0f1")
+		)
+		(pin "2"
+			(uuid "433ead4e-b7c0-4d6f-bf01-9d2da273b3ef")
+		)
+		(instances
+			(project ""
+				(path "/c71a0874-cde3-4340-9d5d-76a32affaba3"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 48.26 181.61 0)
 		(unit 1)
@@ -4748,7 +4819,7 @@
 				)
 			)
 		)
-		(property "Value" "PLR135-T"
+		(property "Value" "PLR135/T"
 			(at 73.66 67.7299 0)
 			(effects
 				(font
@@ -5669,85 +5740,6 @@
 			(project "ADAT_Receiver"
 				(path "/c71a0874-cde3-4340-9d5d-76a32affaba3"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Photolink:PLT133/T")
-		(at 185.42 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54c83189-e6aa-4653-a1a7-3f0383ab2986")
-		(property "Reference" "J5"
-			(at 185.42 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PLx13xT"
-			(at 185.42 82.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Photolink:PLx13xT"
-			(at 185.42 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 185.42 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2235afb7-a5d5-48a4-b54f-3cd6b5ce97d6")
-		)
-		(pin "3"
-			(uuid "bbc1f1af-d668-4b10-b43d-237d9fade21e")
-		)
-		(pin "1"
-			(uuid "8762f784-01cb-41c9-8a41-2f3ce21177a4")
-		)
-		(instances
-			(project ""
-				(path "/c71a0874-cde3-4340-9d5d-76a32affaba3"
-					(reference "J5")
 					(unit 1)
 				)
 			)
